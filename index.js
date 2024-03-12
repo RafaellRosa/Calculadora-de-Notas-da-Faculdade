@@ -29,7 +29,7 @@ function calcular() {
   document.querySelector('.media').innerHTML = `Sua média é: ${calculo}`
 
   if (calculo >= 7) {
-    document.querySelector('.resultado').innerHTML = 'Parabéns, você está na média(7)!';
+    document.querySelector('.resultado').innerHTML = 'Parabéns, você está na média (7)!';
   } else {
     document.querySelector('.resultado').innerHTML = 'Parabéns, você NÃO está na média!';
   }
